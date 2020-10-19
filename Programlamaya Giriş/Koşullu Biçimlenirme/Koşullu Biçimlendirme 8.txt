@@ -1,0 +1,13 @@
+#Bir fabrikada sabit maaşla çalışan işçiler aile durumlarına göre ek maaş almaktadırlar. Çocuk sayısı 1 ise maaşının %5’i kadar , çocuk sayısı 2 ise %10’u 3 ve daha fazla ise %15’i kadar aile yardımı almaktadır. Buna göre kullanıcıdan işçinin maaşı ve çocuk sayısı istenerek gerekli hesaplamayı yapan algoritma ve programı yazınız
+
+maas=int(input("Maaşınızı GİRİNİZ:"))
+cocuk=int(input("Çocuk sayısını GİRİNİZ:"))
+if cocuk==1:
+    aileyardimi=maas+(maas*5)/100
+    print(aileyardimi)
+elif cocuk==2:
+    aileyardimi=maas+(maas*10)/100
+    print(aileyardimi)
+elif cocuk>=3:
+    aileyardimi=maas+(maas*15)/100
+    print(aileyardimi)

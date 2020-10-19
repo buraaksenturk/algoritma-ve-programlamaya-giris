@@ -1,0 +1,9 @@
+#Bir markette yaþý 50 den büyük yada 500 tl üzerinde alýþveriþ yapan müþterilere %20 indirim uygulanmaktadýr. Kiþinin yaþýný ve yaptýðý alýþveriþ miktarýný girerek toplam borcunu ekrana yazdýrýnýz. 
+
+a=int(input("Yaþýnýzý Yazýnýz:"))
+b=int(input("Ne Kadarlýk Alýþveriþ Yaptýðýnýzý Girin:"))
+if a>50 or b>500:
+    indirim=b-(b*20/100)
+    print(indirim)
+else:
+    print(b)

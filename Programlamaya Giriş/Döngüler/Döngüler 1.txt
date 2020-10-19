@@ -1,0 +1,13 @@
+#50 ile 500 arasýndaki sayýlardan 3 e ve 5 e bölünenlerin toplamýný ve ortalamasýný bulunuz.
+
+k=0
+l=0
+m=0
+for a in range(50,500):
+    if a%3==0 and a%5==0:
+        k=a+k
+        m=m+1
+        l=k/m
+        print(a)
+print("Toplamý= ",k)
+print("Ortalamasý= ",l)

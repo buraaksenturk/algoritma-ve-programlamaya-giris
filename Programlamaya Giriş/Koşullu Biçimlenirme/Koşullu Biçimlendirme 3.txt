@@ -1,0 +1,27 @@
+#Klavyeden girilen sayýnýn tek mi, çift mi olduðunu gösteren programý yazalým.
+
+a=1
+b=2
+c=3
+d=4
+e=5
+f=6
+g=7
+h=8
+j=9
+k=0
+
+sayi=int(input("Sayýyý GÝRÝNÝZ:"))
+
+if sayi==a:
+    print("tek")
+elif sayi==c:
+    print("tek")
+elif sayi==e:
+    print("tek")
+elif sayi==g:
+    print("tek")
+elif sayi==j:
+    print("tek")
+else:
+    print("çift")

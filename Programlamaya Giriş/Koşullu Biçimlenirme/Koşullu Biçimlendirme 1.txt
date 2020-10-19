@@ -1,0 +1,13 @@
+#Bir üniversitede öðrencilerin ortalamalarý 50 ve üzerinde ise dersten baþarýlý sayýlmaktadýrlar. Öðrencinin vize notu ortalamaya %40, final notu %60 etki ettiði bildiðine göre öðrencilerin ders baþarý durumlarýný hesaplayan programý yapalým.
+
+
+a=int(input("Vize Notunuzu Giriniz:"))
+b=int(input("Final Notunuzu Giriniz:"))
+ORTALAMA=(a*40/100)+(b*60/100)
+
+print(ORTALAMA)
+
+if ORTALAMA>=50:
+    print("Baþarýlý")
+else:
+    print("Baþarýsýz")

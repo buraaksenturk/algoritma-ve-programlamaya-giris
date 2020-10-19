@@ -1,0 +1,12 @@
+#Klavyeden iki ürünün fiyatı girildiğinde toplam fiyat 200 TL’den fazla ise, 2.üründen %25 indirim yaparak ödenecek tutarı gösteren uygulamayı yapalım.
+
+
+sayi1=int(input("1. ürün fiyatını GİRİNİZ:"))
+sayi2=int(input("2. ürün fiyatını GİRİNİZ:"))
+ucret=sayi1+sayi2
+
+if ucret>200:
+    indirim=sayi2*25/100
+    print(ucret-indirim)
+else:
+    print(ucret)

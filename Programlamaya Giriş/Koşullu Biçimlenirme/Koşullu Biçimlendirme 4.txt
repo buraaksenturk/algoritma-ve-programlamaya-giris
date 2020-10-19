@@ -1,0 +1,9 @@
+#Bir mağazada alınan ürünün fiyatı 100 Tl ve üzerinde ise 5 Tl olan kargo ücreti alınmamaktadır. Ürünün fiyatı girildiğinde toplam ödenmesi gereken tutarı gösteren programı yazalım.
+
+urun=int(input("Ürünün Fiyatını Giriniz:"))
+kargo=5
+
+if urun>=100:
+    print(urun)
+else:
+    print(urun+5)

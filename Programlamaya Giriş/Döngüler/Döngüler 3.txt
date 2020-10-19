@@ -1,0 +1,40 @@
+#Kullanıcıgnın girmiş olduğu cümle içindeki sesli ve sessiz harflerin toplamını veren programı yazınız. Ayıca program en fazla sesli harf mi sessiz harf mi var , yoksa eşit sayıda sesli ve sessiz harf olup olmadığını gösterecektir.
+
+A harfinin sayısını bulan algoritma ve program örneği
+
+kelime=str(input("bir kelime giriniz"))
+
+sesli=0
+
+for harf in kelime:
+
+    if harf=="a":
+
+        sesli=sesli+1
+
+print(sesli)
+
+
+sl="aeıioöuü"
+sz="bcçdfgğhjklmnprsştvyz"
+n=0
+m=0
+k=str(input("Bir Cümle Giriniz:"))
+for l in k:
+    if l in sl:
+        n=n+1
+print("Sesli Harf Sayısı:",n)
+for h in k:
+    if h in sz:
+        m=m+1
+print("Sessiz Harf Sayısı:",m)
+print("Sessli ve Sessiz Harflerin Toplamı:",n+m)
+
+if n>m:
+    print("Sesli Harf Sayısı Sessiz Harf Sayısından Fazladır.")
+elif n<m:
+    print("Sesli Harf Sayısı Sessiz Harf Sayısından Azdır.")
+else:
+    print("Sesli Harf Sayısı Sessiz Harf Sayısına Eşittir.")
+
+

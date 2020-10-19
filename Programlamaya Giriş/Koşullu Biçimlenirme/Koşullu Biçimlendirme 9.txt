@@ -1,0 +1,13 @@
+#Klavyeden 3 sayý girilmektedir. Bu 3 sayýdan en küçüðünü bulan programý yazýnýz.
+
+elma=int(input("1. sayýyý GÝRÝNÝZ:"))
+armut=int(input("2. sayýyý GÝRÝNÝZ:"))
+ayva=int(input("3. sayýyý GÝRÝNÝZ:"))
+
+if elma<=armut and elma<=ayva:
+    kucuk=elma
+elif armut<=elma and armut<=ayva:
+    kucuk=armut
+else:
+    kucuk=ayva
+print(elma,",",armut,"ve",ayva,"içlerinde en küçük olan sayý",kucuk)

@@ -1,0 +1,12 @@
+#Belirlenen kullanýcý adý ve þifre doðru girildiðinde “Giriþ Baþarýlý”, yanlýþ girildiðinde “Girdiðiniz kullanýcý adý veya þifre hatalý” mesajý veren uygulamayý yapalým.
+
+
+a="385215"
+b="fenerbahce1907"
+c=input("Kullanýcý Adýnýzý Giriniz:")
+d=input("Þifrenizi Giriniz:")
+
+if c==a and d==b:
+    print("Giriþ Baþarýlý")
+else:
+    print("Girdiðiniz kullanýcý adý veya þifre hatalý")

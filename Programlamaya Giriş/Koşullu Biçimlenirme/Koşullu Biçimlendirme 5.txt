@@ -1,0 +1,10 @@
+#Klavyeden girilen sayýnýn negatif, pozitif veya sýfýr olduðunu gösteren programýn kodlarýný yazalým.
+
+sayii=int(input("Sayýyý GÝRÝNÝZ:"))
+
+if sayii<0:
+    print("NEGATÝF")
+if sayii==0:
+    print("SIFIR")
+if sayii>0:
+    print("POZÝTÝF")
